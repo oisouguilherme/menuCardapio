@@ -4,8 +4,17 @@
 }
 
 body {
-    background-color: #ffedd5;
+    background-image: url(/restaurant.jpg);
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
+}
+.container {
+    margin: 50px auto;
+    max-width: 500px;
+    background-color: hsla(34, 100%, 92%, .9);
+    padding-bottom: 25px;
+    border-radius: 8px;
+
 }
 
 ul {
@@ -37,9 +46,6 @@ header h1 {
     line-height: 33px;
 }
 
-section {
-    margin-bottom: 24px;
-}
 
 section h2 {
     background-color: #fed7aa;
